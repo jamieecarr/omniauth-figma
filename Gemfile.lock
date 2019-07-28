@@ -3,7 +3,7 @@ PATH
   specs:
     omniauth-figma (0.0.1)
       omniauth (~> 1.9)
-      omniauth-oauth2
+      omniauth-oauth2 (~> 1.6)
 
 GEM
   remote: https://rubygems.org/
