@@ -1,5 +1,5 @@
-<div style="text-align: center;">
-<img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/237/square_256/figma-1-logo.png" width="80">
+<div align="center">
+<img src="https://dashboard.snapcraft.io/site_media/appmedia/2019/03/icon_E5fiGLe.png" width="80">
 
 # OmniAuth Figma
 🚀 A Figma OAuth2 strategy for OmniAuth.
