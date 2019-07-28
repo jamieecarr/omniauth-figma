@@ -1,7 +1,12 @@
-# OmniAuth Figma OAuth2 Strategy
+<div style="text-align: center;">
+<img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/237/square_256/figma-1-logo.png" width="80">
 
-A Figma OAuth2 strategy for OmniAuth.
+# OmniAuth Figma
+🚀 A Figma OAuth2 strategy for OmniAuth.
 
+![Gem](https://img.shields.io/gem/v/omniauth-figma?style=flat-square) 
+![GitHub](https://img.shields.io/github/license/jamieecarr/omniauth-figma?style=flat-square)
+</div>
 
 ## Installation
 
@@ -31,6 +36,28 @@ end
 ```
 
 You can now access the OmniAuth Figma OAuth2 URL: `/auth/figma`.
+
+
+## Auth Hash
+Here's an example *Auth Hash* available in `request.env['omniauth.auth']`:
+
+```ruby
+{
+  provider: 'figma',
+  uid: '590538702844424791',
+  info: {
+    email: 'joe@bloggs.com',
+    name: 'Joe',
+    image: 'https://s3-alpha.figma.com/static/user_j.png',
+  },
+  credentials: {
+    access_token: '<TOKEN>', # OAuth 2.0 access_token, which you may wish to store
+    expires_in: '<EXPIRATION (in seconds)>' # When the access token expires (it always will)
+    refresh_token: 'refresh_token' #This can be reused as many times as necessary to retrieve a new access_token. 
+  }
+}
+```
+
 
 
 ## Contributing
