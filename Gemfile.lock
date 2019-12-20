@@ -36,7 +36,7 @@ GEM
       oauth2 (~> 1.1)
       omniauth (~> 1.9)
     public_suffix (3.1.1)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rake (10.5.0)
@@ -71,7 +71,7 @@ DEPENDENCIES
   bundler (~> 1.17)
   omniauth-figma!
   rack-test
-  rake (~> 10.0)
+  rake
   rspec
   simplecov
   webmock
