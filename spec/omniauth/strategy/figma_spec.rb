@@ -3,6 +3,14 @@ require 'spec_helper'
 describe OmniAuth::Strategies::Figma do
   subject { OmniAuth::Strategies::Figma.new(nil) }
 
+  before do
+    OmniAuth.config.test_mode = true
+  end
+
+  after do
+    OmniAuth.config.test_mode = false
+  end
+
   describe '#client' do
     it 'has correct Figma site' do
       expect(subject.client.site).to eq('https://www.figma.com')

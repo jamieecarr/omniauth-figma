@@ -6,7 +6,7 @@
 
 ![Gem](https://img.shields.io/gem/v/omniauth-figma?style=flat-square) 
 ![GitHub](https://img.shields.io/github/license/jamieecarr/omniauth-figma?style=flat-square)
-[![Build Status](https://travis-ci.org/jamieecarr/omniauth-figma.svg?branch=master)](https://travis-ci.org/jamieecarr/omniauth-figma)
+![Travis (.org)](https://img.shields.io/travis/jamieecarr/omniauth-figma?style=flat-square)
 </div>
 
 ## Installation
