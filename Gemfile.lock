@@ -18,7 +18,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     hashdiff (1.0.0)
     hashie (3.6.0)
-    json (2.2.0)
+    json (2.3.1)
     jwt (2.2.1)
     multi_json (1.13.1)
     multi_xml (0.6.0)
